@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\bin\Debug\netcoreapp2.0\DungeonsAndCodeWizards.deps.json
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\bin\Debug\netcoreapp2.0\DungeonsAndCodeWizards.runtimeconfig.json
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\bin\Debug\netcoreapp2.0\DungeonsAndCodeWizards.runtimeconfig.dev.json
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\bin\Debug\netcoreapp2.0\DungeonsAndCodeWizards.dll
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\bin\Debug\netcoreapp2.0\DungeonsAndCodeWizards.pdb
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.AssemblyInfo.cs
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.dll
+C:\Users\User\Desktop\CV\Github\Other Projects\Team Builder\DungeonsAndCodeWizards\obj\Debug\netcoreapp2.0\DungeonsAndCodeWizards.pdb
