@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\bin\Debug\netcoreapp2.0\TeamBuilder.Models.deps.json
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\bin\Debug\netcoreapp2.0\TeamBuilder.Models.dll
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\bin\Debug\netcoreapp2.0\TeamBuilder.Models.pdb
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.AssemblyInfo.cs
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.dll
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Models\obj\Debug\netcoreapp2.0\TeamBuilder.Models.pdb

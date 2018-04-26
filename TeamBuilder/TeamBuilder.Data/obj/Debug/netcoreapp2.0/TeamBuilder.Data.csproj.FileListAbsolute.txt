@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\bin\Debug\netcoreapp2.0\TeamBuilder.Data.deps.json
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\bin\Debug\netcoreapp2.0\TeamBuilder.Data.dll
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\obj\Debug\netcoreapp2.0\TeamBuilder.Data.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\obj\Debug\netcoreapp2.0\TeamBuilder.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\obj\Debug\netcoreapp2.0\TeamBuilder.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\obj\Debug\netcoreapp2.0\TeamBuilder.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\bin\Debug\netcoreapp2.0\TeamBuilder.Data.pdb
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\bin\Debug\netcoreapp2.0\TeamBuilder.Models.dll
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\bin\Debug\netcoreapp2.0\TeamBuilder.Models.pdb
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\obj\Debug\netcoreapp2.0\TeamBuilder.Data.csproj.CopyComplete
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\obj\Debug\netcoreapp2.0\TeamBuilder.Data.dll
+C:\Users\User\Desktop\CV\Team Builder\TeamBuilder\TeamBuilder.Data\obj\Debug\netcoreapp2.0\TeamBuilder.Data.pdb
