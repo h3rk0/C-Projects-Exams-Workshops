@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TeamBuilder.App.Utilities
+﻿namespace TeamBuilder.App.Utilities
 {
 	public static class Constants
 	{

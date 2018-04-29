@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using TeamBuilder.App.Utilities;
-using TeamBuilder.Data;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.App.Core.Commands
+﻿namespace TeamBuilder.App.Core.Commands
 {
+	using System.Collections.Generic;
+	using System.Linq;
+
+	using TeamBuilder.App.Utilities;
+	using TeamBuilder.Data;
+	using TeamBuilder.Models;
+	
 	public class DeleteUserCommand : Command
 	{ 
 		public override string Execute(IList<string> args)

@@ -7,9 +7,13 @@
     {
 		public User()
 		{
-
+			this.CreatedEvents = new List<Event>();
+			this.UserTeams = new List<UserTeam>();
+			this.CreatedTeams = new List<Team>();
+			this.ReceivedInvitations = new List<Invitation>();
 		}
-		public User(string username,string password,string firstName,string lastName,int age,Gender gender,bool isDeleted = false)
+		public User(string username,string password,string firstName,
+			string lastName,int age,Gender gender,bool isDeleted = false)
 			:this()
 		{
 			this.Username = username;
@@ -18,10 +22,6 @@
 			this.LastName = lastName;
 			this.Age = age;
 			this.Gender = gender;
-			this.CreatedEvents = new List<Event>();
-			this.UserTeams = new List<UserTeam>();
-			this.CreatedTeams = new List<Team>();
-			this.ReceivedInvitations = new List<Invitation>();
 			this.IsDeleted = isDeleted;
 		}
 

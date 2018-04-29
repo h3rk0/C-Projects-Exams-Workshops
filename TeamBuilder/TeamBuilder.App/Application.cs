@@ -1,12 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Data.SqlClient;
-using TeamBuilder.App.Core;
-using TeamBuilder.Data;
-
-namespace TeamBuilder.App
+﻿namespace TeamBuilder.App
 {
-    class Application
+	using Microsoft.EntityFrameworkCore;
+	using System;
+	using System.Data.SqlClient;
+
+	using TeamBuilder.App.Core;
+	using TeamBuilder.Data;
+	
+	class Application
     {
         static void Main(string[] args)
         {
@@ -25,9 +26,11 @@ namespace TeamBuilder.App
 				ResetDatabase(context);
 				context.SaveChanges();
 				//context.Database.EnsureCreated();
+				Console.WriteLine("ResetDone");
 			}
 		}
 
+		// put true if want to recreate whole database  or false only to remove entities
 		private static void ResetDatabase(TeamBuilderContext context, bool shouldDeleteDatabase = false)
 		{
 			if (shouldDeleteDatabase)

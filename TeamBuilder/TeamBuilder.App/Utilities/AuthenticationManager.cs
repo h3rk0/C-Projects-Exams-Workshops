@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TeamBuilder.App.Core.Commands.Contracts;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.App.Utilities
+﻿namespace TeamBuilder.App.Utilities
 {
+	using System;
+	
+	using TeamBuilder.Models;
+	
 	public class AuthenticationManager 
 	{
 		private static User currentUser;

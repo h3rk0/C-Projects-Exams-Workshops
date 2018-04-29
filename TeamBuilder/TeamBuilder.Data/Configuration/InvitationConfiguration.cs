@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.Data.Configuration
+﻿namespace TeamBuilder.Data.Configuration
 {
+	using Microsoft.EntityFrameworkCore;
+	using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+	using TeamBuilder.Models;
+
+
 	class InvitationConfiguration : IEntityTypeConfiguration<Invitation>
 	{
 		public void Configure(EntityTypeBuilder<Invitation> builder)

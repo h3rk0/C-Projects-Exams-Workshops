@@ -1,17 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using TeamBuilder.App.Utilities;
-using TeamBuilder.Data;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.App.Core.Commands.Contracts
+﻿namespace TeamBuilder.App.Core.Commands.Contracts
 {
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+
+	using TeamBuilder.App.Utilities;
+	using TeamBuilder.Data;
+	using TeamBuilder.Models;
+	
 	public class CreateTeamCommand : Command
 	{
 		public override string Execute(IList<string> args)
 		{
+
+			Check.CheckLength(2, args.ToArray());
 
 			string teamName = args[0];
 
@@ -22,7 +24,7 @@ namespace TeamBuilder.App.Core.Commands.Contracts
 			}
 
 			string acronym = args[1];
-			if(acronym.Length<3||acronym.Length>3)
+			if(acronym.Length!=3)
 			{
 				throw new ArgumentException($"Acronym {acronym} not valid!");
 			}
@@ -49,6 +51,9 @@ namespace TeamBuilder.App.Core.Commands.Contracts
 			{
 				User creator = context.Users.Single(u => u.Username == currentUser.Username);
 				Team team = new Team(teamName, acronym, creator, description);
+
+				context.Teams.Add(team);
+				context.SaveChanges();
 			}
 
 				return $"Team {teamName} successfully created!";

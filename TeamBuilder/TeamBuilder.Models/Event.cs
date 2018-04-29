@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-
-namespace TeamBuilder.Models
+﻿namespace TeamBuilder.Models
 {
-    public class Event
+	using System;
+	using System.Collections.Generic;
+	using System.ComponentModel.DataAnnotations;
+	
+	public class Event
     {
-		public Event(string name,string description,DateTime startDate,DateTime endDate,User creator)
+		public Event()
 		{
 			this.ParticipatingEventTeams = new List<EventTeam>();
+		}
+
+		public Event(string name,string description,DateTime startDate,DateTime endDate,User creator)
+			:this()
+		{
 			this.Name = name;
 			this.Description = description;
 			this.StartDate = startDate;

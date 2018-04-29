@@ -1,22 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
-
-namespace TeamBuilder.Models
+﻿namespace TeamBuilder.Models
 {
-    public class Team
+	using System.Collections.Generic;
+	using System.ComponentModel.DataAnnotations;
+	
+	public class Team
     {
+		public Team()
+		{
+			this.UsersInvitations = new List<Invitation>();
+			this.UserTeams = new List<UserTeam>();
+			this.EventTeams = new List<EventTeam>();
+		}
 		public Team(string name,string acronym,User creator,string description = null)
+			:this()
 		{
 			this.Name = name;
 			this.Acronym = acronym;
 			this.Description = description;
 			this.Creator = creator;
-
-			this.UsersInvitations = new List<Invitation>();
-			this.UserTeams = new List<UserTeam>();
-			this.EventTeams = new List<EventTeam>();
 		}
 		//CreateTeam &lt;name&gt; &lt;acronym&gt; &lt;description&gt;
 		public int Id { get; set; }

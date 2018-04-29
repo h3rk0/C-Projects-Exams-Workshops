@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using TeamBuilder.App.Utilities;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.App.Core.Commands
+﻿namespace TeamBuilder.App.Core.Commands
 {
+	using System.Collections.Generic;
+	using System.Linq;
+
+	using TeamBuilder.App.Utilities;
+	using TeamBuilder.Models;
+	
 	public class LogoutCommand : Command
 	{
 		public override string Execute(IList<string> args)

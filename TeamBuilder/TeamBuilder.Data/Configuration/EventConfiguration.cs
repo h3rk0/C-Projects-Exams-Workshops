@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.Data.Configuration
+﻿namespace TeamBuilder.Data.Configuration
 {
+	using Microsoft.EntityFrameworkCore;
+	using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+	using TeamBuilder.Models;
+
+
 	class EventConfiguration : IEntityTypeConfiguration<Event>
 	{
 		public void Configure(EntityTypeBuilder<Event> builder)

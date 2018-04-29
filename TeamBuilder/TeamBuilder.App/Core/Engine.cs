@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using TeamBuilder.App.Utilities;
-
-namespace TeamBuilder.App.Core
+﻿namespace TeamBuilder.App.Core
 {
-    public class Engine
+	using System;
+
+	using TeamBuilder.App.Utilities;
+	
+	public class Engine
     {
 		private CommandInterpreter commandDispatcher;
 		public Engine(CommandInterpreter commandDispatcher)
@@ -20,15 +19,17 @@ namespace TeamBuilder.App.Core
 				
 				try
 				{
+					/////TRY
 					string input = Console.ReadLine();
 					string output = this.commandDispatcher.ExecuteCommand(input);
 
-					if(output == "Bye!")
+					if (output == "Bye!")
 					{
 						break;
 					}
 
 					Console.WriteLine(output);
+					/////CATCH
 
 				}
 				catch (Exception e)

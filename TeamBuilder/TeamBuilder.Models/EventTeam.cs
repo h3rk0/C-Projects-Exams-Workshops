@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TeamBuilder.Models
+﻿namespace TeamBuilder.Models
 {
-    public class EventTeam
+	using System;
+	using System.Collections.Generic;
+	using System.Text;
+
+
+	public class EventTeam
     {
 		public int TeamId { get; set; }
 		public Team Team { get; set; }

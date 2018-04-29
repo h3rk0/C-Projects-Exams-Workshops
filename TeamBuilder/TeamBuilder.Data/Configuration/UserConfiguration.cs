@@ -1,12 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.Data.Configuration
+﻿namespace TeamBuilder.Data.Configuration
 {
+	using Microsoft.EntityFrameworkCore;
+	using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+	using TeamBuilder.Models;
+	
 	public class UserConfiguration : IEntityTypeConfiguration<User>
 	{
 		public void Configure(EntityTypeBuilder<User> builder)
@@ -16,7 +14,8 @@ namespace TeamBuilder.Data.Configuration
 			builder.Property(u => u.Password).IsRequired();
 
 			builder
-				.HasIndex(u => u.Username);
+				.HasIndex(u => u.Username)
+				.IsUnique();
 
 			builder
 				.Property(u => u.FirstName)
@@ -28,7 +27,8 @@ namespace TeamBuilder.Data.Configuration
 
 			builder
 				.Property(u => u.Password)
-				.HasMaxLength(30);
+				.HasMaxLength(30)
+				.IsRequired();
 
 			builder.HasMany(u => u.CreatedTeams)
 				.WithOne(t => t.Creator)

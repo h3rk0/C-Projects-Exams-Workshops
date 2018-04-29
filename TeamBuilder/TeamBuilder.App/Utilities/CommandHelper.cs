@@ -1,16 +1,27 @@
-﻿using System.Linq;
-using TeamBuilder.Data;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.App.Utilities
+﻿namespace TeamBuilder.App.Utilities
 {
-    public static class CommandHelper
+	using System.Linq;
+
+	using TeamBuilder.Data;
+	using TeamBuilder.Models;
+
+
+	public static class CommandHelper
     {
 		public static bool IsTeamExisting(string teamName)
 		{
 			using (TeamBuilderContext context = new TeamBuilderContext())
 			{
 				return context.Teams.Any(t => t.Name == teamName);
+			}
+		}
+
+		public static bool IsTeamPartOfEvent(string teamName,string eventName)
+		{
+			using (TeamBuilderContext context = new TeamBuilderContext())
+			{
+				return context.EventTeams.Any(et => et.Event.Name == eventName
+				&& et.Team.Name==teamName);
 			}
 		}
 
@@ -38,9 +49,16 @@ namespace TeamBuilder.App.Utilities
 		{
 			using (TeamBuilderContext context = new TeamBuilderContext())
 			{
-				return context.Teams
-					.Single(t => t.Name == teamName)
+				var userTeam = context.UserTeams
+					.Any(ut => ut.Team.Name == teamName &&
+					ut.User.Username == userName);
+
+				var team = context.Teams
+					.Single(t => t.Name == teamName);
+
+				var check = team
 					.UserTeams.Any(ut => ut.User.Username == userName);
+				return userTeam;
 			}
 		}
 

@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using TeamBuilder.App.Utilities;
-using TeamBuilder.Data;
-using TeamBuilder.Models;
-
-namespace TeamBuilder.App.Core.Commands.Contracts
+﻿namespace TeamBuilder.App.Core.Commands.Contracts
 {
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+
+	using TeamBuilder.App.Utilities;
+	using TeamBuilder.Data;
+	using TeamBuilder.Models;
+	
 	public class LoginCommand : Command
 	{
 		public override string Execute(IList<string> args)
@@ -36,6 +36,7 @@ namespace TeamBuilder.App.Core.Commands.Contracts
 		{
 			using (TeamBuilderContext context = new TeamBuilderContext())
 			{
+
 				User user = context.Users.FirstOrDefault(u => u.Username == username &&
 				u.Password == password && !u.IsDeleted);
 				return user;

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TeamBuilder.Models
+﻿namespace TeamBuilder.Models
 {
-    public class UserTeam
+	public class UserTeam
     {
 		public int UserId { get; set; }
 		public User User { get; set; }
